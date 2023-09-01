@@ -1,0 +1,612 @@
+
+.header{
+    background-color:black;
+    color: rgb(32, 30, 30);
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo{
+    position: relative;
+    /* background-color:black; */
+    color:white(40, 20, 30);
+    /* padding: 10px 10px; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size:2vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;  
+
+    
+   
+
+}
+
+
+
+
+
+.flex-container2{
+    display: flex;
+    justify-content: space-between; /* 子要素間のスペースを均等に分配 */
+    align-items: center; /* 子要素を縦方向に中央に配置 */
+    background-color: #1a1919;
+    
+  }
+
+.flex-item2{
+ width: calc(33.33%);
+ padding: 30px;
+ 
+}
+
+
+
+
+/* .why{
+ 
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    background-color: #2e2c2c;
+    margin: 0px;
+  } */
+
+
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {
+    position:relative;
+	z-index: 1;
+	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+	height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+}
+
+.slider-top,
+.slider-bottom {
+    height: 50vh;/*スライダー上下の縦幅を画面の高さの半分（50vh）にする*/
+}
+
+/*　背景画像設定　*/
+
+.slider-item01 {
+    background:url(../img/OWS1avobe.jpg);
+}
+
+.slider-item02 {
+
+    background:url(../img/OWS1.down.jpg);
+}
+
+.slider-item03 {
+    background:url(../img/OWS2.above.jpg);
+}
+
+.slider-item04 {
+    background:url(../img/OWS2.down.jpg);
+}
+
+.slider-item05 {
+    background:url(../img/OWS4above.jpg);
+}
+
+.slider-item06 {
+    background:url(../img/OWS4down.jpg);
+}
+
+
+.slider-item07 {
+    background:url(../img/OWS5above.jpg);
+}
+
+
+.slider-item08 {
+    background:url(../img/OWS5down.jpg);
+}
+
+.slider-item09 {
+    background:url(../img/6avobe.jpg);
+}
+
+.slider-item10 {
+    background:url(../img/6down.jpg);
+}
+
+.slider-item11 {
+    background:url(../img/OWS7above.jpg);
+}
+
+.slider-item12 {
+    background:url(../img/OWS7down.jpg);
+}
+
+
+.slider-item13 {
+    background:url(../img/S__80912392.jpg);
+}
+
+
+
+.slider-item14 {
+    background:url(../img/8down2.jpg);
+}
+
+
+
+.slider-item {
+    /* ...その他のスタイル */
+    background-position: center center; /* 水平方向と垂直方向の中央に配置 */
+}
+
+
+
+.slider-item {
+    width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    height: 50vh;/*各スライダーの縦幅を画面の高さの半分（50vh）にする*/
+    background-repeat: no-repeat;/*背景画像をリピートしない*/
+    background-position: center;/*背景画像の位置を中央に*/
+    background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+    object-fit: contain;
+
+    }
+
+
+
+/* h3{
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%); */
+        /* text-align: center;
+        font-size:6vw;
+        letter-spacing: 0.1em; 
+        text-transform: uppercase;
+      } */ */
+    
+
+
+      /* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h3 {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 6vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color:aquamarine;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* 背景色を設定 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.slider {
+  /* position: relative; */
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size:6vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+
+
+
+h3 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-size: 6vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* color:gray; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+    
+/* ーーーーーーハンバーガーーーーーーー */
+
+
+#g-nav{
+    /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+    position:fixed;
+    z-index: 999;
+    /*ナビのスタート位置と形状*/
+	top:0;
+    right: -100%;
+	width:30%;
+    height: 100vh;/*ナビの高さ*/
+	background: linear-gradient(45deg,rgba(5, 0, 11, 0.9),rgba(87, 189, 226, 0.9));/*背景色（グラデーション）*/
+    /*動き*/
+	transition: all 0.6s;
+}
+
+/*アクティブクラスがついたら位置を0に*/
+#g-nav.panelactive{
+    right: 0;
+}
+
+nav#g-nav {}
+
+/*ナビゲーションの縦スクロール*/
+#g-nav.panelactive #g-nav-list{
+    /*ナビの数が増えた場合縦スクロール*/
+    position: fixed;
+    z-index: 999; 
+    width: 30%;
+    height: 100vh;/*表示する高さ*/
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*横幅が768px以下になった際の指定*/
+@media only screen and (max-width: 768px) {
+    #g-nav,
+    #g-nav.panelactive #g-nav-list{
+        width:100%;
+    }
+}
+
+/*ナビゲーション*/
+#g-nav ul {
+    /*ナビゲーション天地中央揃え*/
+    position: absolute;
+    z-index: 999;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*リストのレイアウト設定*/
+
+#g-nav li{
+	list-style: none;
+    text-align: center;
+}
+
+#g-nav li a{
+	color: #fff;
+	text-decoration: none;
+	padding:10px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+    transition: all .5s;
+}
+
+#g-nav li a:hover{
+    color:skyblue;
+}
+
+
+.openbtn{
+	position:fixed;
+    z-index: 9999;/*ボタンを最前面に*/
+	top:10px;
+	right: 10px;
+	cursor: pointer;
+    width: 50px;
+    height:50px;
+}
+	
+/*×に変化*/	
+.openbtn span{
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+	background-color:whitesmoke;
+  	width: 45%;
+  }
+
+.openbtn span:nth-of-type(1) {
+	top:15px;	
+}
+
+.openbtn span:nth-of-type(2) {
+	top:23px;
+}
+
+.openbtn span:nth-of-type(3) {
+	top:31px;
+}
+
+.openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.openbtn.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+/*===========================================================*/
+/* 機能編 5-3-1中心から外に線が伸びる（下部）*/
+/*===========================================================*/
+
+.sort-btn{
+	display: flex;
+	margin:50px 0;
+    padding: 50px;
+	 list-style: none;
+    text-transform: uppercase;
+    justify-content: space-between; 
+    justify-content: space-around;
+    width: 100%; /* コンテナの幅を画面幅に合わせる */
+    max-width: 1200px; /* コンテナの最大幅を指定 */
+    margin: 0 auto; /* 水平中央に配置 */
+  }
+
+
+.sort-btn li{
+	position: relative;
+    cursor: pointer;
+    margin: 0 20px;
+    
+    
+}
+
+.sort-btn li::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom:-5px;
+    left: 25%;
+    /*線の形状*/
+    width: 50%;
+    height: 2px;
+    background:#a0a0a0;
+    /*アニメーションの指定*/
+    transition: all .3s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: center top;/*上部中央基点*/
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .scroll-top a {
+    
+    color: #666;
+    /* text-transform: uppercase;  */
+    /* font-size: 1.0rem;
+    letter-spacing: 0.05em;
+    
+} */ 
+
+
+
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+    width: 10px;
+    height: 10px;
+    
+      
+  }
+  .item{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+
+} */
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+    width: auto; /* コンテナの幅を画面幅に合わせる */
+    /* max-width: 1200px; /* コンテナの最大幅を指定 */
+    /* margin: 0 auto; 水平中央に配置  */
+
+
+  
+  /* .item {
+    width: 25%; /* 4つのアイテムを横並びにするために25% */
+    /* max-width: 200px; /* アイテムの最大幅を指定 */
+    /* height: 200px; 高さを自動調整 */
+    /* object-fit: contain; 画像がアイテム内にフィットするように調整
+ position: relative; */
+  
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* コンテナの幅を画面幅に合わせる */
+    max-width: 1400px; /* コンテナの最大幅を指定 */
+    margin: auto; /* 水平中央に配置 */
+    
+  }
+  
+  .item {
+    width: 25%; /* 4つのアイテムを横並びにするために25% */
+    max-width: 200px; /* アイテムの最大幅を指定 */
+    height: auto; /* 高さを自動調整 */
+    object-fit: cover; /* 画像がアイテム内にフィットするように調整 */
+    position: relative;
+    background-color: #1a1919;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+    
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* * {
+    padding: 0;
+    margin: 0; */
+
+
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+
+
+
+
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+  .wa-i{
+ 
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    background-color:black;
+    margin: 0px;
+  }
+
+  
+
+
+
+
+  .SNS{
+    justify-content: space-around;
+    margin: 20px;
+    color: white;
+    font-weight: lighter;
+    /* text-shadow: 1px 2px 3px black;
+    font-style: italic; */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent; 
+    }
+  
+
+
+
+
+  /* 虹色の文字 */
+  .rainbow-text {
+    /* background: linear-gradient(45deg, #ff5cac, #ff9966, #66ffff); /* 虹色のグラデーションを指定 */
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  */
+    justify-content: space-around;
+    margin: 20px;
+     color:white; 
+    font-weight: lighter;
+    /* text-shadow: 1px 2px 3px black;
+    font-style: italic; */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    }
+
+    
+      
+        
+      
+
+  
